@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: black;
+}
+
+.container1 {
+    justify-content: center;
+    font-family: 'Copperplate', fantasy;
+    color: beige;
+    display: flex;
+    margin-left: auto;
+    height: fit-content;
+    margin-top: 5%;
+    margin-right: auto;
+}
+
+.card {
+    max-width: 27%;
+    min-width: 27%;
+    background-color: black;
+    color: lightgray;
+    font-family: 'Copperplate', fantasy;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.details, .details-messages {
+    max-height: 150px;
+    max-width: 27%;
+    min-width: 27%;
+    font-family: 'Copperplate', fantasy;
+    color: beige;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+}
+
+.btn-planet, .btn-vehicle, .btn-people {
+    width: 320px;
+    opacity: 0.9;
+    place-content: center;
+}
+
+
